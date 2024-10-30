@@ -1,0 +1,456 @@
+/* Estilos gerais para o corpo */
+body {
+  font-family: Arial, sans-serif; /* Fonte padrão */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4; /* Cor de fundo clara */
+  color: #333; /* Cor do texto padrão */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilo padrão (claro) */
+body.light {
+  background-color: #ffffff; /* Cor de fundo clara */
+  color: #333; /* Cor do texto */
+}
+body.dark {
+  background-color: #121212; /* Cor de fundo escura */
+  color: #ffffff; /* Cor do texto claro */
+}
+body.purple {
+  background-color: #3700b3; /* Cor de fundo roxa */
+  color: #ffffff; /* Cor do texto claro */
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Adicione estilos para outros elementos conforme necessário */
+
+
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #3700b3; /* Cor de fundo laranja */
+  color: #fff; /* Cor do texto branco */
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 20px; /* Espaçamento interno do cabeçalho */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra */
+}
+
+/* Estilos para o título no cabeçalho */
+header h1 {
+  margin: 0; /* Remove a margem padrão */
+  font-size: 2.5em; /* Tamanho da fonte do título */
+}
+
+/* Estilos para a descrição no cabeçalho */
+header p {
+  margin: 10px 0; /* Margem acima e abaixo */
+  font-size: 1.2em; /* Tamanho da fonte da descrição */
+}
+
+
+/* Estilos para a seção de depoimentos */
+#testimonials {
+  background-color: #f9f9f9; /* Cor de fundo suave */
+  padding: 40px 20px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+}
+
+#testimonials h2 {
+  font-size: 2em; /* Tamanho da fonte do título */
+  color: #3700b3; /* Cor do texto do título */
+  margin-bottom: 20px; /* Margem inferior do título */
+  border-bottom: 2px solid #3700b3; /* Linha inferior */
+  display: inline-block; /* Exibe o título como bloco em linha */
+  padding-bottom: 10px; /* Espaçamento interno inferior do título */
+}
+
+.testimonial {
+  background-color: #fff; /* Cor de fundo dos depoimentos */
+  padding: 20px; /* Espaçamento interno dos depoimentos */
+  margin: 20px auto; /* Margem superior e inferior */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  max-width: 600px; /* Largura máxima dos depoimentos */
+  transition: transform 0.3s, box-shadow 0.3s; /* Animação suave para transformação e sombra */
+}
+
+.testimonial:hover {
+  transform: scale(1.05); /* Aumenta o tamanho ao passar o mouse */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+}
+
+.testimonial p {
+  font-size: 1.2em; /* Tamanho da fonte dos textos */
+  color: #555; /* Cor do texto dos depoimentos */
+  margin-bottom: 10px; /* Margem inferior */
+}
+
+.testimonial p:last-child {
+  font-style: italic; /* Estilo itálico para o nome do cliente */
+  color: #3700b3; /* Cor do texto do nome do cliente */
+}
+
+/* Estilos para o botão de alternância de tema */
+#theme-toggle {
+  background-color: #FF8C00; /* Cor de fundo laranja mais escura */
+  color: #fff; /* Cor do texto branca */
+  border: none; /* Remove a borda padrão */
+  padding: 10px 20px; /* Espaçamento interno para aumentar o tamanho do botão */
+  font-size: 16px; /* Tamanho da fonte */
+  cursor: pointer; /* Mostra o cursor de ponteiro ao passar sobre o botão */
+  border-radius: 5px; /* Bordas arredondadas */
+  transition: background-color 0.3s ease; /* Animação suave para mudança de cor */
+}
+
+/* Estilo ao passar o mouse sobre o botão */
+#theme-toggle:hover {
+  background-color: blue/* Cor de fundo laranja ainda mais escura */
+}
+
+/* Estilo ao clicar no botão */
+#theme-toggle:active {
+  background-color: red; /* Cor de fundo laranja ainda mais escura */
+}
+
+/* Estilo para o tema escuro */
+body.dark-theme {
+  background-color: #333; /* Cor de fundo do tema escuro */
+  color: #fff; /* Cor do texto no tema escuro */
+}
+
+body.dark-theme header {
+  background-color: #FF8C00; /* Cor de fundo do cabeçalho no tema escuro */
+}
+
+body.dark-theme #theme-toggle {
+  background-color: #FFA500; /* Cor de fundo do botão no tema escuro */
+  color: #333; /* Cor do texto do botão no tema escuro */
+}
+
+body.dark-theme #theme-toggle:hover {
+  background-color: #FF6347; /* Cor de fundo do botão no tema escuro ao passar o mouse */
+}
+
+body.dark-theme #theme-toggle:active {
+  background-color: #FF4500; /* Cor de fundo do botão no tema escuro ao clicar */
+}
+
+/* Estilos para a navegação */
+nav {
+  background-color: #444; /* Cor de fundo da navegação */
+  overflow: hidden; /* Garante que o conteúdo não ultrapasse o contêiner */
+}
+
+nav ul {
+  list-style: none; /* Remove os marcadores */
+  padding: 0; /* Remove o padding padrão */
+  margin: 0; /* Remove a margem padrão */
+  text-align: center; /* Centraliza o texto */
+}
+
+nav ul li {
+  display: inline; /* Exibe os itens em linha */
+}
+
+nav ul li a {
+  display: inline-block; /* Exibe o link como bloco */
+  padding: 10px 20px; /* Espaçamento interno do link */
+  color: #fff; /* Cor do texto */
+  text-decoration: none; /* Remove a sublinha */
+  transition: background-color 0.3s; /* Animação suave para mudança de cor */
+}
+
+nav ul li a:hover {
+  background-color: #555; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para as seções */
+section {
+  padding: 20px; /* Espaçamento interno das seções */
+}
+
+section h2 {
+  border-bottom: 2px solid black; /* Linha inferior */
+  padding-bottom: 10px; /* Espaçamento interno inferior */
+  margin-bottom: 20px; /* Margem inferior */
+  transition: border-color 0.3s; /* Animação suave para mudança de cor */
+}
+
+body.dark-theme section h2 {
+  border-color: #f4f4f4; /* Cor da linha inferior no tema escuro */
+}
+
+/* Estilos para projetos e depoimentos */
+.project, .testimonial {
+  background-color: #fff; /* Cor de fundo */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+  margin-bottom: 20px; /* Margem inferior */
+  transition: transform 0.3s, box-shadow 0.3s; /* Animação suave para transformação e sombra */
+}
+
+.project:hover, .testimonial:hover {
+  transform: scale(1.05); /* Aumenta o tamanho ao passar o mouse */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra ao passar o mouse */
+}
+
+body.dark-theme .project, body.dark-theme .testimonial {
+  background-color: #444; /* Cor de fundo no tema escuro */
+}
+
+/* Estilos para o formulário de contato */
+#contact-form {
+  display: flex;
+  flex-direction: column; /* Coloca os itens em coluna */
+}
+
+#contact-form label {
+  margin-top: 10px; /* Margem superior */
+}
+
+#contact-form input, #contact-form textarea {
+  padding: 10px; /* Espaçamento interno */
+  margin-top: 5px; /* Margem superior */
+  border: 1px solid #ccc; /* Borda */
+  border-radius: 4px; /* Bordas arredondadas */
+  transition: border-color 0.3s; /* Animação suave para mudança de cor */
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+  border-color: #333; /* Cor da borda ao focar */
+}
+
+#contact-form button {
+  padding: 10px; /* Espaçamento interno */
+  background-color: rgb(9, 203, 9); /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  border: none; /* Remove a borda */
+  border-radius: 4px; /* Bordas arredondadas */
+  margin-top: 10px; /* Margem superior */
+  cursor: pointer; /* Mostra o cursor de ponteiro ao passar sobre o botão */
+  transition: background-color 0.3s; /* Animação suave para mudança de cor */
+}
+
+#contact-form button:hover {
+  background-color: #3700b3; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #3700b3; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  text-align: center; /* Alinha o texto ao centro */
+  padding: 10px 0; /* Espaçamento interno */
+  position: fixed; /* Fixa o rodapé na parte inferior */
+  width: 100%; /* Largura total */
+  bottom: 0; /* Alinha ao fundo */
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Sombra superior */
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  nav ul li {
+      display: block; /* Muda o menu para ser vertical em telas menores */
+  }
+
+  #contact-form input {
+      width: 100%; /* Faz o campo do formulário ocupar toda a largura disponível */
+      margin-right: 0; /* Remove a margem direita */
+      margin-bottom: 10px; /* Adiciona margem inferior */
+  }
+}
+
+/* Estilo comum para imagens e iframes */
+.project img,
+.project iframe {
+  max-width: 100%; /* Garante que as imagens e vídeos não ultrapassem a largura do contêiner */
+  height: auto; /* Mantém a proporção das imagens e vídeos */
+  margin: 0 auto; /* Centraliza as imagens e vídeos */
+  display: block; /* Garante que as imagens e vídeos sejam blocos para centralização */
+}
+
+
+#gallery {
+  text-align: center; /* Centraliza o texto e os itens */
+  padding: 20px; /* Espaçamento interno */
+}
+
+.gallery-item {
+  display: inline-block; /* Alinha os itens lado a lado */
+  margin: 10px; /* Espaçamento entre as imagens */
+}
+
+.gallery-item img {
+  width: 200px; /* Largura fixa para as imagens */
+  height: auto; /* Mantém a proporção da imagem */
+  border-radius: 10px; /* Arredonda os cantos da imagem */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra às imagens */
+  transition: transform 0.3s; /* Efeito de transição ao passar o mouse */
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
+}
+
+.gallery-item p {
+  color: purple; /* Cor do texto roxa */
+  margin-top: 8px; /* Espaçamento acima do texto */
+  font-size: 14px; /* Tamanho da fonte */
+  line-height: 1.5; /* Altura da linha para melhor legibilidade */
+}
+
+
+/* Estilo para a página de login */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f4f4; /* Cor de fundo */
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px; /* Largura máxima do formulário */
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3700b3;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #3700b3;
+}
+
+
+
+.centered-text {
+  text-align: center; /* Centraliza o texto horizontalmente */
+  margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+.project {
+  display: flex;
+  flex-direction: column; /* Alinha os itens em coluna */
+  align-items: center; /* Centraliza todos os itens horizontalmente no contêiner */
+}
+
+
+
+.project {
+  display: flex;
+  flex-direction: column; /* Alinha os itens em coluna */
+  align-items: center; /* Centraliza todos os itens horizontalmente no contêiner */
+}
+
+.project iframe {
+  width: 100%; /* Faz o iframe ocupar toda a largura do contêiner */
+  max-width: 800px; /* Limita a largura máxima para 800px (você pode ajustar conforme necessário) */
+  height: auto; /* Mantém a proporção do vídeo */
+  aspect-ratio: 16/9; /* Mantém a proporção padrão de vídeos */
+  margin: 20px 0; /* Adiciona espaço acima e abaixo do vídeo */
+}
+
+
+#spotify {
+  display: flex; /* Usa flexbox para alinhamento */
+  flex-direction: column; /* Alinha os itens em coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens verticalmente, se necessário */
+  height: 100vh; /* Define a altura da seção para 100% da altura da janela */
+  background-color: #f9f9f9; /* Cor de fundo opcional */
+}
+
+.spotify-item {
+  display: flex; /* Usar flexbox para alinhar o iframe e o parágrafo */
+  flex-direction: column; /* Alinha o iframe em cima do parágrafo */
+  align-items: center; /* Centraliza o conteúdo dentro do item */
+  margin: 20px; /* Espaçamento em volta do item */
+}
+
+.spotify-item p {
+  color: #800080; /* Cor roxa para o texto */
+  margin-top: 10px; /* Espaçamento acima do texto */
+}
+
+
+
+
+#spotify {
+  display: flex; /* Usa flexbox para alinhamento */
+  flex-direction: column; /* Alinha os itens em coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens verticalmente, se necessário */
+  height: auto; /* A altura da seção será automática, ajustando-se ao conteúdo */
+  background-color: #f9f9f9; /* Cor de fundo opcional */
+  padding: 40px 0; /* Espaçamento em cima e embaixo da seção */
+}
+
+#spotify {
+  display: flex; /* Usa flexbox para alinhamento */
+  flex-direction: column; /* Alinha os itens em coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens verticalmente */
+  height: auto; /* A altura da seção será automática, ajustando-se ao conteúdo */
+  background-color: #f9f9f9; /* Cor de fundo opcional */
+  padding: 40px 0; /* Espaçamento em cima e embaixo da seção */
+}
+
+#spotify {
+  display: flex; /* Usa flexbox para alinhamento */
+  flex-direction: column; /* Alinha os itens em coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  justify-content: center; /* Centraliza os itens verticalmente, se necessário */
+  height: 100vh; /* Define a altura da seção para 100% da altura da janela */
+  background-color: #f9f9f9; /* Cor de fundo opcional */
+}
+
+.spotify-item {
+  display: flex; /* Usar flexbox para alinhar o iframe e o parágrafo */
+  flex-direction: column; /* Alinha o iframe em cima do parágrafo */
+  align-items: center; /* Centraliza o conteúdo dentro do item */
+  margin: 20px; /* Espaçamento em volta do item */
+}
+
+.spotify-item p {
+  color: #800080; /* Cor roxa para o texto */
+  margin-top: 10px; /* Espaçamento acima do texto */
+}
+
+
+
