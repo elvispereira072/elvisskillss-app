@@ -6,7 +6,7 @@ Este é o meu portfólio online, onde apresento meu trabalho como desenvolvedor 
 
 - **HTML**: Estruturação do conteúdo do site.
 - **CSS**: Estilo e layout do site, incluindo a implementação de um modo escuro.
-- **JavaScript**: Interatividade, incluindo um botão para alternar entre modos claro e escuro.
+- **JavaScript**: Interatividade, incluindo um botão para alternar entre modos claro, roxo e escuro.
 
 ## Estrutura do Projeto
 
