@@ -292,7 +292,7 @@ footer {
 }
 
 .gallery-item img {
-  width: 300px; /* Largura fixa para as imagens */
+  width: 340px; /* Largura fixa para as imagens */
   height: auto; /* Mantém a proporção da imagem */
   border-radius: 10px; /* Arredonda os cantos da imagem */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona sombra às imagens */
