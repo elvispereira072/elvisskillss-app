@@ -21,7 +21,6 @@ Este é o meu portfólio online, onde apresento meu trabalho como desenvolvedor 
 - **Projetos**: Apresentação de projetos anteriores com links e descrições.
 - **Serviços**: Descrição dos serviços oferecidos.
 - **Galeria**: Imagens representativas do meu trabalho.
-- **Blog**: Resumos de posts recentes.
 - **Depoimentos**: Comentários de clientes e colegas.
 - **Contato**: Formulário para entrar em contato.
 
