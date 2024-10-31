@@ -251,9 +251,9 @@ footer {
   background-color: #3700b3; /* Cor de fundo */
   color: #fff; /* Cor do texto */
   text-align: center; /* Alinha o texto ao centro */
-  padding: 10px 0; /* Espaçamento interno */
+  padding: 3px 0; /* Espaçamento interno */
   position: fixed; /* Fixa o rodapé na parte inferior */
-  width: 100%; /* Largura total */
+  width: 90%; /* Largura total */
   bottom: 0; /* Alinha ao fundo */
   box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Sombra superior */
 }
