@@ -5,17 +5,17 @@ themeToggleButton.addEventListener('click', () => {
     if (currentTheme === 'light') {
         document.body.classList.remove('light');
         document.body.classList.add('dark');
-        themeToggleButton.textContent = 'Modo Roxo';
+        themeToggleButton.textContent = 'Purple';
         currentTheme = 'dark';
     } else if (currentTheme === 'dark') {
         document.body.classList.remove('dark');
         document.body.classList.add('purple');
-        themeToggleButton.textContent = 'Modo Claro';
+        themeToggleButton.textContent = 'White';
         currentTheme = 'purple';
     } else {
         document.body.classList.remove('purple');
         document.body.classList.add('light');
-        themeToggleButton.textContent = 'Modo Escuro';
+        themeToggleButton.textContent = 'Dark';
         currentTheme = 'light';
     }
 });
