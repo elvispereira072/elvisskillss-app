@@ -216,10 +216,11 @@ footer {
   text-align: center; /* Alinha o texto ao centro */
   padding: 3px 0; /* Espaçamento interno */
   position: fixed; /* Fixa o rodapé na parte inferior */
-  width: 90%; /* Largura total */
+  width: 100%; /* Largura total */
   bottom: 0; /* Alinha ao fundo */
   box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.2); /* Sombra superior */
 }
+
 
 /* Estilos responsivos */
 @media (max-width: 768px) {
@@ -348,6 +349,7 @@ footer {
   aspect-ratio: 16/9; /* Mantém a proporção padrão de vídeos */
   margin: 20px 0; /* Adiciona espaço acima e abaixo do vídeo */
 }
+
 
 
 

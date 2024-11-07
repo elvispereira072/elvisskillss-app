@@ -46,4 +46,3 @@ document.addEventListener('DOMContentLoaded', function () {
     services.forEach(service => observer.observe(service));
     galleryItems.forEach(galleryItem => observer.observe(galleryItem));
 });
-
